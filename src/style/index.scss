@@ -1,0 +1,172 @@
+@import './element-variables.scss';
+
+$size-array: 0, 5, 10, 15, 20, 30, 40, 50, 60, 80, 100;
+@each $size in $size-array {
+  .m-#{$size} {
+    margin: #{$size}px !important;
+  }
+
+  .my-#{$size} {
+    margin-top: #{$size}px !important;
+    margin-bottom: #{$size}px !important;
+  }
+
+  .mx-#{$size} {
+    margin-left: #{$size}px !important;
+    margin-right: #{$size}px !important;
+  }
+
+  .mt-#{$size} {
+    margin-top: #{$size}px !important;
+  }
+
+  .mb-#{$size} {
+    margin-bottom: #{$size}px !important;
+  }
+
+  .ml-#{$size} {
+    margin-left: #{$size}px !important;
+  }
+
+  .mr-#{$size} {
+    margin-right: #{$size}px !important;
+  }
+
+  .p-#{$size} {
+    padding: #{$size}px !important;
+  }
+
+  .py-#{$size} {
+    padding-top: #{$size}px !important;
+    padding-bottom: #{$size}px !important;
+  }
+
+  .px-#{$size} {
+    padding-left: #{$size}px !important;
+    padding-right: #{$size}px !important;
+  }
+
+  .pt-#{$size} {
+    padding-top: #{$size}px !important;
+  }
+
+  .pb-#{$size} {
+    padding-bottom: #{$size}px !important;
+  }
+
+  .pl-#{$size} {
+    padding-left: #{$size}px !important;
+  }
+
+  .pr-#{$size} {
+    padding-right: #{$size}px !important;
+  }
+}
+
+.search-form {
+  .el-form-item {
+    display: block;
+  }
+  .el-form-item__content {
+    line-height: 39.5px;
+    width: 100%;
+    display: flex;
+    .el-select {
+      flex: 1 !important;
+    }
+  }
+  .el-form {
+    .form-actions {
+      padding: 1rem 1rem;
+      .el-form-item__content {
+        text-align: right;
+        display: block;
+      }
+    }
+  }
+  .el-form-item {
+    padding: 0rem 1rem;
+    margin: 0;
+    margin-bottom: 1rem;
+    label {
+      display: inline-block;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      padding: 0 0 0.5rem 0;
+      line-height: 1rem;
+    }
+    .el-date-editor {
+      width: 100%;
+      .el-input {
+        input {
+          width: 100%;
+          border-radius: 4px;
+        }
+      }
+    }
+  }
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.customer-collapse-header {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  background: #f7f7f7;
+  font-size: 20px;
+  color: #222b45;
+  padding: 0 20px;
+  font-weight: bold;
+}
+
+.el-collapse-item__header {
+  background: #f7f7f7;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.info-header {
+  position: sticky;
+  top: -20px;
+  padding: 20px;
+  left: 0;
+  background: white;
+}
+
+.form-title {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.zenni-form {
+  .el-select {
+    width: 100%;
+  }
+}
+
+.zenni-description-list {
+  .el-descriptions-item__label {
+    max-width: 200px;
+    width: 200px;
+  }
+  &.middle-size {
+    .el-descriptions-item__label {
+      max-width: 140px;
+      width: 150px;
+    }
+  }
+  &.mini-size {
+    .el-descriptions-item__label {
+      max-width: 100px;
+      width: 120px;
+    }
+  }
+}
+
+.d-block {
+  display: block;
+}

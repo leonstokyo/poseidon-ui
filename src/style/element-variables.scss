@@ -1,0 +1,93 @@
+/* 改变主题色变量 */
+$--color-primary: #0099a8;
+$color-brand: #0099a8;
+
+.el-button--primary {
+  color: #fff;
+  background-color: #0099a8;
+  border-color: #0099a8;
+}
+
+.el-button--primary:focus,
+.el-button--primary:hover {
+  background-color: #52cad4;
+  border-color: #52cad4;
+  color: #fff;
+}
+
+.el-button--primary.is-disabled,
+.el-button--primary.is-disabled:active,
+.el-button--primary.is-disabled:focus,
+.el-button--primary.is-disabled:hover {
+  color: #fff;
+  background-color: #c3c3c3;
+  border-color: #c3c3c3;
+}
+
+.el-menu-item.is-active {
+  color: #0099a8;
+}
+
+.el-pagination.is-background .el-pager li:not(.disabled).active {
+  background-color: #0099a8;
+  color: #fff;
+}
+
+.el-loading-spinner .el-loading-text {
+  color: #0099a8;
+  margin: 3px 0;
+  font-size: 14px;
+}
+
+.el-loading-spinner .path {
+  -webkit-animation: loading-dash 1.5s ease-in-out infinite;
+  animation: loading-dash 1.5s ease-in-out infinite;
+  stroke-dasharray: 90, 150;
+  stroke-dashoffset: 0;
+  stroke-width: 2;
+  stroke: #0099a8;
+  stroke-linecap: round;
+}
+
+.el-radio__input.is-checked .el-radio__inner {
+  border-color: #0099a8;
+  background: #0099a8;
+}
+
+.el-radio__input.is-checked + .el-radio__label {
+  color: #0099a8;
+}
+
+//[class*=' el-icon-'],
+//[class^='el-icon-'] {
+//  color: #0099a8 !important;
+//}
+
+.el-rate__text {
+  color: #0099a8 !important;
+}
+
+.el-icon-plus:before {
+  color: #fff;
+}
+.el-input-number__increase .el-icon-plus:before {
+  color: #0099a8;
+}
+
+.el-upload--picture-card .el-icon-plus:before {
+  color: #0099a8;
+}
+.el-icon-search:before {
+  color: #fff;
+}
+
+.el-icon-refresh:before {
+  color: #fff;
+}
+.el-icon-caret-bottom:before {
+  color: #fff;
+}
+
+.el-row {
+  flex-wrap: wrap;
+}
